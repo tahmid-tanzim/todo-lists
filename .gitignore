@@ -1,2 +1,5 @@
+# IDE Config
 .idea
+
 node_modules
+dist/bundle.js
