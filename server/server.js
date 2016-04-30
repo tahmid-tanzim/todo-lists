@@ -1,7 +1,20 @@
 var express = require('express'),
-    path = require('path');
+    path = require('path'),
+    config = require('../webpack.config'),
+    webpack = require('webpack'),
+    webpackDevMiddleware = require('webpack-dev-middleware'),
+    webpackHotMiddleware = require('webpack-hot-middleware');
 
 var app = express();
+
+var compiler = webpack(config);
+
+app.use(webpackDevMiddleware(compiler, {
+    noInfo: true,
+    publicPath: config.output.publicPath
+}));
+
+app.use(webpackHotMiddleware(compiler));
 
 app.use(express.static('./dist'));
 
