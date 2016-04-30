@@ -1,0 +1,29 @@
+{
+  "name": "todo-lists",
+  "version": "1.0.0",
+  "description": "A simple ToDo Lists app build with React, Redux and Webpack",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tahmid-tanzim/todo-lists.git"
+  },
+  "author": "Tahmid Tanzim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tahmid-tanzim/todo-lists/issues"
+  },
+  "homepage": "https://github.com/tahmid-tanzim/todo-lists#readme",
+  "dependencies": {
+    "babel-core": "^6.7.7",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "express": "^4.13.4",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "webpack": "^1.13.0"
+  }
+}

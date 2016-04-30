@@ -1,2 +1,2 @@
-# todo-lists
-A ToDo Lists with - React | Redux | Webpack
+# ToDo Lists
+App with React, Redux and Webpack
