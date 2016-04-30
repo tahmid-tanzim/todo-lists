@@ -7,5 +7,6 @@ npm install -g webpack nodemon
 
 ##### Start Server
 ```
+webpack --config webpack.config.js
 npm run serve
 ```
